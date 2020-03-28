@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add nodemon -D
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\FPC\3.0.4\bin\i386-Win32;C:\PROGRA~2\PICC;C:\Python34;C:\Python34\Scripts;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\tools\php74;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\Java\jdk1.8.0\bin;C:\apache-ant-1.10.7\bin;C:\Users\Edson Chicale\AppData\Local\Android\android-sdk\tools;C:\Users\Edson Chicale\AppData\Local\Android\android-sdk\platform-tools;C:\Program Files (x86)\Yarn\bin\;C:\Users\Edson Chicale\.windows-build-tools\python27\;C:\Users\Edson Chicale\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Edson Chicale\AppData\Local\Programs\Python\Python37-32\;C:\Users\Edson Chicale\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Edson Chicale\AppData\Roaming\npm;C:\Users\Edson Chicale\AppData\Local\Android\Sdk\emulator\bin64;C:\src\flutter\bin;C:\php;C:\tools\dart-sdk\bin;C:\Users\Edson Chicale\AppData\Roaming\Pub\Cache\bin;C:\Users\Edson Chicale\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
